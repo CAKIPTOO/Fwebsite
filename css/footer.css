@@ -1,0 +1,14 @@
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .names {
+    flex-grow: 1; /* Take remaining space */
+  }
+  
+  .positions {
+    flex-shrink: 0; /* Don't shrink */
+  }
